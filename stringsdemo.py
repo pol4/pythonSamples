@@ -6,12 +6,12 @@ def input_digital():
         return False
 
 def main():
-    print("Введите число:")
+    print("Введите число: ")
 
     while (x := input_digital()) == False:
         print("Фигню ввёл. Попробуй ещё раз.")
 
-    print("Введено число:", x)
+    print("Введено число: ", x)
 
 
 if __name__ == "__main__":
