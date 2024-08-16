@@ -47,9 +47,9 @@ def main():
 
     print("Введено число: ", y)
 
-    #print(gcd(x, y))
+    print(gcd(x, y))
     #print(fn(x, y))
-    print(expn(x, y))
+    #print(expn(x, y))
 
 if __name__ == "__main__":
     main()
